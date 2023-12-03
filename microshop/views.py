@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from .shemas import CreateUser
 from microshop import crud
 
-users = APIRouter(prefix="/users", tags=['Users'])
+users = APIRouter(prefix="/users", tags=["Users"])
 
 
 @users.post("/")
