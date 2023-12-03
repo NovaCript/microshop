@@ -1,4 +1,4 @@
-from microshop.shemas import CreateUser
+from microshop.users.shemas import CreateUser
 
 
 def create_user(user_id: CreateUser):
